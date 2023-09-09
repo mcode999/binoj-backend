@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rsbin.binoj.mapper.QuestionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rsbin.binoj.model.entity.Question">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="content" property="content" />
+        <result column="tags" property="tags" />
+        <result column="answer" property="answer" />
+        <result column="submitNum" property="submitNum" />
+        <result column="acceptedNum" property="acceptedNum" />
+        <result column="judgeCase" property="judgeCase" />
+        <result column="judgeConfig" property="judgeConfig" />
+        <result column="thumbNum" property="thumbNum" />
+        <result column="favourNum" property="favourNum" />
+        <result column="userId" property="userId" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="isDelete" property="isDelete" />
+    </resultMap>
+
+</mapper>
